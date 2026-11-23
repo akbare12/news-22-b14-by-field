@@ -629,8 +629,8 @@ def build():
     lo = ("LEFT OUT (not 22 Nov): 400-drone barrage (19–20 Nov) · El Chapo Isidro "
           "captured (20 Nov) · BepiColombo Mercury orbit (21 Nov, burn 18:24 GMT) · "
           "Kryvyi Rih (20 Nov) · Peru quake (20 Nov) · Hormuz tankers hit (Sat 21 Nov "
-          "05:00 GMT; reported Sun 17:13 UTC) · Nigeria boat (20 Nov) · FBI NCIC hack "
-          "(20–21 Nov) · Sparta II hit Sat 21 Nov — shown only as still burning/towed.")
+          "05:00 GMT; reported Sun 17:13 UTC) · Sparta II hit Sat 21 Nov — shown only "
+          "as still burning/towed.")
     for j, ln in enumerate(wrap(lo, fdc, x1 - x0 - 16, d)):
         d.text((x0 + 8, y + 24 + j * 12), ln, font=fdc, fill=INK)
     ny = ("NOT YET: 4 House races uncalled · Dymer final toll · COP32 venue · "
